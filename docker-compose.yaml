@@ -1,0 +1,13 @@
+services:
+  gaia-graph:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    volumes:
+      - .:/home/projects
+
+    working_dir: /home/projects
+
+    stdin_open: true
+    tty: true
