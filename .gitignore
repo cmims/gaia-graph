@@ -110,6 +110,12 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-#IntelliJ/pycharm
+# IntelliJ/pycharm
 .idea
 *.iml
+
+# macOS
+*.DS_Store
+
+output/
+gaia_cache/
